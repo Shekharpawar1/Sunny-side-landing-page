@@ -27,7 +27,6 @@ body{
     flex-direction: row;
     gap:5rem;
    
-    color:white;
 }
 .navbar-list-items:hover{
     text-decoration: underline 2px solid white;
