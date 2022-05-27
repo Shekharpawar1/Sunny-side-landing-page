@@ -216,7 +216,9 @@ footer>h2{color:#27594E;}
         gap:2rem;
         padding:.5rem;
     }
-   
+    .navbar-list{
+        display: none;
+    }
     .navbar-list{
         flex-direction: column;
         background-color: white;
