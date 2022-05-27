@@ -219,7 +219,7 @@ footer>h2{color:#27594E;}
     .navbar-list{
         display: none;
     }
-    .navbar-list{
+    .navbar-list.active{
         flex-direction: column;
         background-color: white;
         width: 25rem;
@@ -228,6 +228,7 @@ footer>h2{color:#27594E;}
         color:#5A636C;
         padding:0rem 2rem;
         text-align: center;
+        display: block;
         /* height:30rem; */
     }
     .navbar-list-items{
@@ -241,7 +242,7 @@ footer>h2{color:#27594E;}
         height: 2rem;
         position: absolute;
         top:3.2rem;
-        right:2rem;
+        right:2.8rem;
     }
     #menu:before {
         content: "";
@@ -307,7 +308,7 @@ footer>h2{color:#27594E;}
 
     }
     .col3>.text-section,.col4>.text-section{
-        margin:18rem 0rem;
+        margin:5rem 0rem;
         text-align: center;
         padding: 0rem 2rem;
     }

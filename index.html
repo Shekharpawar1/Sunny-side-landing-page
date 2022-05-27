@@ -161,11 +161,7 @@
     <script>
         let menu = document.getElementById("menu")
         document.getElementById("mobile-menu").addEventListener("click", () => {
-            if (menu.style.display !== "none") {
-                menu.style.display = "none"
-            } else {
-                menu.style.display = "block"
-            }
+            document.getElementById("menu").classList.toggle("active")
 
         })
     </script>
